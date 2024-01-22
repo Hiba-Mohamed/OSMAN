@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="flex flex-col items-center font-mullish px-4 bg-stone-50 ">
-      <img src="src\images\osman-logo.png" className="w-60 py-12" />
+      <img src="img/logo.png" className="w-60 py-12" />
       <div className="lg:px-56 ">
         <h1 className="text-2xl text-center font-bold pb-2 lg:text-5xl">
           Welcome to Osman Cleaning Services Ltd.

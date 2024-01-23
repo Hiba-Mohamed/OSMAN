@@ -26,7 +26,6 @@ function Homepage() {
         </div>
         <div className="py-6">
           <h1 className="font-bold py-2">What Sets Us Apart </h1>
-          <p>
             <ul className="pb-6">
               <li>
                 <strong>Professionalism: </strong>Our team of experienced and
@@ -48,9 +47,7 @@ function Homepage() {
                 green approach, leaving your space not only clean but also safe.
               </li>
             </ul>
-          </p>
           <h1 className="font-bold py-2">Our Services</h1>
-          <p>
             <ul>
               <li>
                 <strong>Residential Cleaning:</strong> Let us transform your
@@ -72,7 +69,6 @@ function Homepage() {
                 shine for any occasion.
               </li>
             </ul>
-          </p>
         </div>
         <div>
           <h1 className="font-bold py-2">Contact Us</h1>

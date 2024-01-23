@@ -7,17 +7,16 @@ import Footer from "./components/footer"
 
 function App() {
   return (
-    <div className="font-Lato">
-      <Header />
-      <HashRouter>
-        {" "}
+    <HashRouter>
+      <div className="font-Lato">
+        <Header />{" "}
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/home" element={<Homepage />} />
         </Routes>
-      </HashRouter>
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 

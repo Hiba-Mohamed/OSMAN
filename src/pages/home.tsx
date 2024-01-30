@@ -1,11 +1,24 @@
 function Homepage() {
   return (
-    <div className="flex flex-col items-center font-mullish px-4 bg-stone-50 ">
-      <img src="img/logo.png" className="w-60 py-12" />
+    <div className="flex flex-col items-center font-Montserrat bg-stone-50 ">
+      <div className="bg-[url('public/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col items-center lg:pb-12 min-h-screen">
+        <img src="img/logo.png" className="w-60 lg:w-68 py-12" />
+        <div className="flex flex-col">
+          {" "}
+          <h1 className="text-4xl text-center font-black pb-2 lg:text-5xl">
+            Welcome to <br/> Osman Cleaning Services Ltd.
+          </h1>
+          <div className="flex flex-col md:flex-row items-center gap-8 py-10">
+            <button className="bg-orange-100 w-80 text-black font-bold py-4 rounded-lg text-xl shadow-xl">
+              Explore Services
+            </button>
+            <button className="bg-darkBlue w-80 text-white font-bold py-4 rounded-lg text-xl shadow-xl">
+              Book Cleaning
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="lg:px-56 ">
-        <h1 className="text-2xl text-center font-bold pb-2 lg:text-5xl">
-          Welcome to Osman Cleaning Services Ltd.
-        </h1>
         <p className="text-xl lg:text-2xl">
           At Osman Cleaning Services, we understand the importance of a clean
           and healthy environment. Our passion for cleanliness and commitment to
@@ -26,49 +39,47 @@ function Homepage() {
         </div>
         <div className="py-6">
           <h1 className="font-bold py-2">What Sets Us Apart </h1>
-            <ul className="pb-6">
-              <li>
-                <strong>Professionalism: </strong>Our team of experienced and
-                trained cleaning professionals is committed to delivering
-                services with the utmost professionalism. We take pride in our
-                attention to detail and ensure every nook and cranny is
-                thoroughly cleaned.
-              </li>
-              <li>
-                <strong>Customized Solutions: </strong> We recognize that every
-                space is unique, and so are its cleaning requirements. Our
-                services are customizable to fit your specific needs, ensuring a
-                personalized and effective cleaning solution.
-              </li>
-              <li>
-                <strong>Environmentally Friendly:</strong> We prioritize the
-                health of both our clients and the environment. Our eco-friendly
-                cleaning products and practices contribute to a sustainable and
-                green approach, leaving your space not only clean but also safe.
-              </li>
-            </ul>
+          <ul className="pb-6">
+            <li>
+              <strong>Professionalism: </strong>Our team of experienced and
+              trained cleaning professionals is committed to delivering services
+              with the utmost professionalism. We take pride in our attention to
+              detail and ensure every nook and cranny is thoroughly cleaned.
+            </li>
+            <li>
+              <strong>Customized Solutions: </strong> We recognize that every
+              space is unique, and so are its cleaning requirements. Our
+              services are customizable to fit your specific needs, ensuring a
+              personalized and effective cleaning solution.
+            </li>
+            <li>
+              <strong>Environmentally Friendly:</strong> We prioritize the
+              health of both our clients and the environment. Our eco-friendly
+              cleaning products and practices contribute to a sustainable and
+              green approach, leaving your space not only clean but also safe.
+            </li>
+          </ul>
           <h1 className="font-bold py-2">Our Services</h1>
-            <ul>
-              <li>
-                <strong>Residential Cleaning:</strong> Let us transform your
-                home into a haven of cleanliness. Our residential cleaning
-                services cover everything from bedrooms to kitchens, ensuring a
-                sanitized and inviting living space.
-              </li>
-              <li>
-                <strong>Commercial Cleaning:</strong>Impress clients and create
-                a productive work environment with our thorough commercial
-                cleaning services. We cater to offices, retail spaces, and more,
-                maintaining cleanliness that reflects positively on your
-                business.
-              </li>
-              <li>
-                <strong>Specialized Cleaning:</strong> From post-construction
-                cleanup to event-specific cleaning, we handle specialized
-                cleaning projects with precision. Trust us to make your space
-                shine for any occasion.
-              </li>
-            </ul>
+          <ul>
+            <li>
+              <strong>Residential Cleaning:</strong> Let us transform your home
+              into a haven of cleanliness. Our residential cleaning services
+              cover everything from bedrooms to kitchens, ensuring a sanitized
+              and inviting living space.
+            </li>
+            <li>
+              <strong>Commercial Cleaning:</strong>Impress clients and create a
+              productive work environment with our thorough commercial cleaning
+              services. We cater to offices, retail spaces, and more,
+              maintaining cleanliness that reflects positively on your business.
+            </li>
+            <li>
+              <strong>Specialized Cleaning:</strong> From post-construction
+              cleanup to event-specific cleaning, we handle specialized cleaning
+              projects with precision. Trust us to make your space shine for any
+              occasion.
+            </li>
+          </ul>
         </div>
         <div>
           <h1 className="font-bold py-2">Contact Us</h1>

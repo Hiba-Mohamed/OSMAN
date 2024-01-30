@@ -4,7 +4,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="shadow-md flex flex-col m-2 rounded-lg">
+    <div className="shadow-md flex flex-col">
       <div className="py-2 md:px-24 px-4 flex flex-row justify-between">
         <Link to="/home">
           {" "}

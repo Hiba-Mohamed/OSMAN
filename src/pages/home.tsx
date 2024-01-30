@@ -1,7 +1,7 @@
 function Homepage() {
   return (
     <div className="flex flex-col items-center font-Montserrat bg-stone-50 ">
-      <div className="bg-[url('public/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col items-center lg:pb-12 min-h-screen">
+      <div className="bg-[url('/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col items-center lg:pb-12 min-h-screen">
         <img src="img/logo.png" className="w-60 lg:w-68 py-12" />
         <div className="flex flex-col">
           {" "}

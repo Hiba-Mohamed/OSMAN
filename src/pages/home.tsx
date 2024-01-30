@@ -1,24 +1,24 @@
 function Homepage() {
   return (
     <div className="flex flex-col items-center font-Montserrat bg-stone-50 ">
-      <div className="bg-[url('/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col items-center lg:pb-12 min-h-screen">
-        <img src="img/logo.png" className="w-56 lg:w-68 py-12" />
+      <div className="bg-[url('/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-12 lg:p-12 items-center lg:pb-12 min-h-screen">
+        <img src="img/logo.png" className="w-72 md:w-68 py-12" />
         <div className="flex flex-col">
           {" "}
-          <h1 className="text-4xl text-center font-black pb-2 lg:text-5xl">
-            Welcome to <br/> Osman Cleaning Services Ltd.
+          <h1 className="text-3xl text-center pb-2 md:text-5xl">
+            Sparkling Spaces, <br/> Exceptional Service!
           </h1>
-          <div className="flex flex-col md:flex-row items-center gap-8 py-10">
-            <button className="bg-orange-100 w-80 text-black font-bold py-4 rounded-lg text-xl shadow-xl">
+          <div className="flex flex-col text-2xl font-bold md:text-3xl md:flex-row items-center gap-8 py-10">
+            <button className="bg-orange-100 w-80 text-black font-bold py-4 rounded-lg  shadow-2xl">
               Explore Services
             </button>
-            <button className="bg-darkBlue w-80 text-white font-bold py-4 rounded-lg text-xl shadow-xl">
+            <button className="bg-darkBlue w-80 text-white font-bold py-4 rounded-lg shadow-2xl">
               Book Cleaning
             </button>
           </div>
         </div>
       </div>
-      <div className="lg:px-56 ">
+      {/* <div className="lg:px-56 ">
         <p className="text-xl lg:text-2xl">
           At Osman Cleaning Services, we understand the importance of a clean
           and healthy environment. Our passion for cleanliness and commitment to
@@ -90,7 +90,7 @@ function Homepage() {
             cleaner, healthier, and happier environment for you.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

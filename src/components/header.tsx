@@ -14,7 +14,6 @@ export function Header() {
             alt="Osman Cleaning Services logo"
           ></img>
         </Link>
-    
 
         <div className="hidden md:block">
           <ul className="flex flex-row items-center font-medium mt-4 rounded-lg">
@@ -36,7 +35,7 @@ export function Header() {
                 About
               </Link>
             </li>
-          
+
             <li>
               <Link
                 to="/contact"
@@ -45,7 +44,6 @@ export function Header() {
                 Contact Us
               </Link>
             </li>
-  
           </ul>
         </div>
         <button
@@ -80,7 +78,7 @@ export function Header() {
               About
             </Link>
           </li>
-  
+
           <li>
             <Link
               to="/contact"
@@ -90,7 +88,6 @@ export function Header() {
               Contact Us
             </Link>
           </li>
-
         </ul>
       </div>
     </div>

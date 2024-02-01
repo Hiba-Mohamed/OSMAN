@@ -2,11 +2,33 @@ export function ExploreServices() {
   return (
     <div>
       <div className="">
-        <h1 className="text-2xl font-bold text-center p-12 md:text-5xl">
+        <h1 className="text-4xl font-bold text-center p-12 md:text-5xl">
           What we offer
         </h1>
       </div>
-
+      <div className="text-xl p-8 flex flex-col md:pl-48 md:gap-4 md:text-3xl">
+        <p>Cleaning services for all:</p>
+        <div className="flex flex-row font-bold items-center gap-2">
+          <img className="w-3 h-3" src="./img/dot.png"></img>
+          <p>Airbnb's</p>
+        </div>
+        <div className="flex flex-row font-bold items-center gap-2">
+          <img className="w-3 h-3" src="./img/dot.png"></img>
+          <p>Rentals</p>
+        </div>
+        <div className="flex flex-row font-bold items-center gap-2">
+          <img className="w-3 h-3" src="./img/dot.png"></img>
+          <p> Move-In/Move-Out</p>
+        </div>
+        <div className="flex flex-row font-bold items-center gap-2">
+          <img className="w-3 h-3" src="./img/dot.png"></img>
+          <p>Apartments</p>
+        </div>{" "}
+        <div className="flex flex-row font-bold items-center gap-2">
+          <img className="w-3 h-3" src="./img/dot.png"></img>
+          <p>Condos</p>
+        </div>
+      </div>
       <div className="flex flex-col shadow-lg rounded-2xl m-6 mb-24 md:mb-32">
         <div className="flex flex-col items-center">
           <h1 className="bg-darkBlue w-full text-white font-bold text-center text-3xl p-4 rounded-t-2xl lg:text-4xl">
@@ -92,9 +114,7 @@ export function ExploreServices() {
             </div>
             <div className="flex flex-row items-center gap-2">
               <img className="w-3 h-3" src="./img/dot.png"></img>
-              <p>
-                Laundry: We provide clean towels for our regular customers.
-              </p>
+              <p>Laundry: We provide clean towels for our regular customers.</p>
             </div>
           </div>
         </div>
@@ -120,7 +140,6 @@ export function ExploreServices() {
               <img className="w-3 h-3" src="./img/dot.png"></img>
               <p>Cleaning and disinfecting surfaces.</p>
             </div>
-          
           </div>
         </div>
       </div>

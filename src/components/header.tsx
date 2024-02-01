@@ -16,11 +16,11 @@ export function Header() {
         </Link>
 
         <div className="hidden md:block">
-          <ul className="flex flex-row items-center font-medium mt-4 rounded-lg">
+          <ul className="flex flex-row items-center font-medium mt-4 gap-8 rounded-lg">
             <li>
               <Link
-                to="/homePage"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
+                to="/home"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-20 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
                 aria-current="page"
               >
                 Home
@@ -29,19 +29,19 @@ export function Header() {
 
             <li>
               <Link
-                to="/about"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
+                to="/services"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-24 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
               >
-                About
+                Services
               </Link>
             </li>
 
             <li>
               <Link
-                to="/contact"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
+                to="/booking"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-40 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
               >
-                Contact Us
+                Book a Cleaning
               </Link>
             </li>
           </ul>
@@ -60,7 +60,7 @@ export function Header() {
         <ul className="flex flex-col items-center font-medium mt-4 rounded-lg">
           <li>
             <Link
-              to="/homePage"
+              to="/home"
               className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
               aria-current="page"
               onClick={() => setOpen(!open)}
@@ -71,21 +71,21 @@ export function Header() {
 
           <li>
             <Link
-              to="/about"
+              to="/services"
               className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
               onClick={() => setOpen(!open)}
             >
-              About
+              Services
             </Link>
           </li>
 
           <li>
             <Link
-              to="/contact"
+              to="/booking"
               className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
               onClick={() => setOpen(!open)}
             >
-              Contact Us
+              Book a Cleaning
             </Link>
           </li>
         </ul>

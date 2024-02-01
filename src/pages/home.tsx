@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <div className="flex flex-col items-center font-Montserrat bg-stone-50 ">
@@ -6,12 +7,15 @@ function Homepage() {
         <div className="flex flex-col">
           {" "}
           <h1 className="text-3xl text-white text-center pb-2 md:text-5xl">
-            Sparkling Spaces, <br/> Exceptional Service!
+            Sparkling Spaces, <br /> Exceptional Service!
           </h1>
-          <div className="flex flex-col text-2xl font-bold md:text-3xl md:flex-row items-center gap-8 py-10">
-            <button className="bg-orange-100 w-80 text-black font-bold py-4 rounded-lg  shadow-2xl">
+          <div className="flex flex-col text-2xl font-bold md:text-3xl md:flex-row text-center items-center gap-8 py-10">
+            <Link
+              to="/services"
+              className="bg-orange-100 w-80 text-black font-bold py-4 rounded-lg  shadow-2xl"
+            >
               Explore Services
-            </button>
+            </Link>
             <button className="bg-darkBlue w-80 text-white font-bold py-4 rounded-lg shadow-2xl">
               Book Cleaning
             </button>

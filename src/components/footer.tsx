@@ -4,7 +4,7 @@ export function Footer() {
       <img className="w-16" src="./img/logo.png"></img>
       <span className="block text-center">
         {" "}
-        Osman Cleaning Services
+        Osman Cleaning Services Ltd.
         <br /> © 2024 All Rights Reserved.
       </span>
       <p>

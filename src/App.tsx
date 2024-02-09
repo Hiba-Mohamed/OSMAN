@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 import "./App.css";
 import ExploreServices from "./pages/services";
 import BookService from "./pages/booking";
-
+import Contact from "./pages/contact";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
           <Route path="/home" element={<Homepage />} />
           <Route path="/services" element={<ExploreServices />} />
           <Route path="/booking" element={<BookService />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

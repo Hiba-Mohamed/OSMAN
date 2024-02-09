@@ -15,12 +15,12 @@ export function Header() {
           ></img>
         </Link>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <ul className="flex flex-row items-center font-medium mt-4 gap-8 rounded-lg">
             <li>
               <Link
                 to="/home"
-                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-20 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white px-12  text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
                 aria-current="page"
               >
                 Home
@@ -30,7 +30,7 @@ export function Header() {
             <li>
               <Link
                 to="/services"
-                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-24 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white px-8 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
               >
                 Services
               </Link>
@@ -39,15 +39,23 @@ export function Header() {
             <li>
               <Link
                 to="/booking"
-                className="block py-2 text-gray-900 rounded-2xl border-2 border-white w-40 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white px-2 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
               >
                 Book a Cleaning
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="block py-2 text-gray-900 rounded-2xl border-2 border-white px-4 text-center hover:text-green hover:text-darkBlue hover:border-darkBlue hover:border-2"
+              >
+                Contact Us
               </Link>
             </li>
           </ul>
         </div>
         <button
-          className="p-2 text-stone-500 font-bold rounded-2xl md:hidden"
+          className="p-2 text-stone-500 font-bold rounded-2xl lg:hidden"
           onClick={() => setOpen(!open)}
         >
           Menu
@@ -57,7 +65,7 @@ export function Header() {
         className={`${open ? "block" : "hidden"} w-full`}
         id="navbar-hamburger"
       >
-        <ul className="flex flex-col items-center font-medium mt-4 rounded-lg">
+        <ul className="flex flex-col items-center font-medium my-4 rounded-lg ">
           <li>
             <Link
               to="/home"
@@ -86,6 +94,14 @@ export function Header() {
               onClick={() => setOpen(!open)}
             >
               Book a Cleaning
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:text-green"
+            >
+              Contact Us
             </Link>
           </li>
         </ul>

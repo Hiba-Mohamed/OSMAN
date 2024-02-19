@@ -155,7 +155,7 @@ export function ExploreServices() {
           <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
             <div className="flex flex-row items-center gap-2">
               <img className="w-3 h-3" src="./img/dot.png"></img>
-              <p>Towels</p>
+              <p>Towels.</p>
             </div>
             <div className="flex flex-row items-center gap-2">
               <img className="w-3 h-3" src="./img/dot.png"></img>

@@ -151,7 +151,7 @@ export function ExploreServices() {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row">
-          <img className="w-65 md:w-96" src="./img/kitchen.png"></img>
+          <img className="w-65 md:w-96" src="./img/laundry.png"></img>
           <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
             <div className="flex flex-row items-center gap-2">
               <img className="w-3 h-3" src="./img/dot.png"></img>

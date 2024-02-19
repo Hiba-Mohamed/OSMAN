@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <div className="flex flex-col items-center font-Montserrat bg-stone-50 ">
-      <div className="bg-[url('/img/banner.png')] bg-opacity-0 bg-cover w-full flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-12 lg:p-12 items-center lg:pb-12 min-h-screen">
+      <div className="bg-[url('/img/banner3.png')] bg-opacity-0 bg-cover w-full flex flex-col lg:flex-row lg:items-center lg:justify-center lg:gap-12 lg:p-12 items-center lg:pb-12 min-h-screen">
         <img src="img/logo.png" className="w-72 md:w-68 py-12" />
         <div className="flex flex-col">
           {" "}

@@ -3,8 +3,6 @@ import { FaHome, FaBuilding, FaStore, FaKey, FaBroom } from "react-icons/fa"; //
 export function ExploreServices() {
   return (
     <div>
-  
-
       <section className="text-xl flex flex-col align-center items-center justify-center md:gap-4 md:text-3xl">
         <div>
           {/* Section Header */}
@@ -69,7 +67,7 @@ export function ExploreServices() {
         <div className="flex flex-col md:flex-row">
           <img
             className="w-65 md:w-96 object-cover max-w-full"
-            src="./img/living.png"
+            src="./img/living.jpeg"
             alt="Living Room"
           />
           <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
@@ -97,7 +95,7 @@ export function ExploreServices() {
         <div className="flex flex-col md:flex-row">
           <img
             className="w-65 md:w-96 object-cover max-w-full"
-            src="./img/bedroom.png"
+            src="./img/bedroom.jpeg"
             alt="Bedroom"
           />
           <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
@@ -129,7 +127,7 @@ export function ExploreServices() {
         <div className="flex flex-col md:flex-row">
           <img
             className="w-65 md:w-96 object-cover max-w-full"
-            src="./img/bathroom.png"
+            src="./img/bathroom.jpeg"
             alt="Bathroom"
           />
           <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
@@ -159,8 +157,68 @@ export function ExploreServices() {
           </div>
         </div>
       </section>
+      {/* Kitchen Section */}
+      <section className="flex flex-col shadow-lg rounded-2xl m-6 mb-24 md:mb-32 lg:mx-48">
+        <h1 className="bg-darkBlue w-full text-white font-bold text-center text-3xl p-4 rounded-t-2xl lg:text-4xl">
+          Kitchens
+        </h1>
+        <div className="flex flex-col md:flex-row">
+          <img
+            className="w-65 md:w-96 object-cover max-w-full"
+            src="./img/kitchen.jpeg"
+            alt="Kitchen"
+          />
+          <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Vacuuming & mopping floors.</p>
+            </div>
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Washing dishes.</p>
+            </div>
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Cleaning and disinfecting surfaces.</p>
+            </div>
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Cleaning fridges.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      {/* Additional service sections can follow the same pattern */}
+      {/* Laundry Section */}
+      <section className="flex flex-col shadow-lg rounded-2xl m-6 mb-24 md:mb-32 lg:mx-48">
+        <h1 className="bg-darkBlue w-full text-white font-bold text-center text-3xl p-4 rounded-t-2xl lg:text-4xl">
+          Laundry
+        </h1>
+        <div className="flex flex-col md:flex-row">
+          <img
+            className="w-65 md:w-96 object-cover max-w-full"
+            src="./img/laundry.jpeg"
+            alt="Laundry"
+          />
+          <div className="flex flex-col rounded-b-2xl md:text-xl lg:text-3xl gap-2 md:gap-6 md:pl-10 p-4">
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Towels.</p>
+            </div>
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>Bedding set.</p>
+            </div>
+            <div className="flex flex-row items-center gap-2">
+              <img className="w-3 h-3" src="./img/dot.png" alt="bullet" />
+              <p>
+                <strong>Note:</strong> We provide clean bedding sets and towels
+                for regular Airbnb and short-term rental clients per turnover.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

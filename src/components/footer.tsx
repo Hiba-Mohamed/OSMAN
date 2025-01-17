@@ -8,7 +8,7 @@ export function Footer() {
         <br /> © 2024 All Rights Reserved.
       </span>
       <p>
-        <strong>Disclaimer:</strong> Pictures used are from Canva
+        <strong>Disclaimer:</strong> Pictures used Gemeni-AI-Generated
       </p>
     </div>
   );

@@ -18,7 +18,6 @@ export function Contact() {
           </p>
         </div>
       </div>
-      <img className="w-48 sm:w-28 pt-12 " src="img/logo.png"></img>
       <p className="py-6 px-12 sm:text-2xl text-xl text-center">
         Thank you for choosing Osman Cleaning Services Ltd.{" "}
       </p>
